@@ -1,4 +1,5 @@
 #	Haber Okuma Programı v1
+#	26.10.2019 - github.com/zkcplk
 
 from selenium import webdriver
 import time
