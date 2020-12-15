@@ -15,7 +15,7 @@ def git():
     global liste
     if 0 not in liste.values():
         driver.get('https://www.ensonhaber.com/son-dakika')
-        links = driver.find_elements_by_class_name('link')
+        links = driver.find_elements_by_class_name('news-item')
 
         for i in links:
             temp = i.get_attribute('href')
